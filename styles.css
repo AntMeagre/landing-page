@@ -79,6 +79,7 @@ body {
     justify-content: center;
     gap: 52px;
     padding-top: 36px;
+    flex-wrap: wrap;
 }
 
 .item, .info img {
