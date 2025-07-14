@@ -87,7 +87,7 @@ body {
 }
 
 .info img {
-    border: #3882F6 solid 4px;
+    border: #f64e38 solid 4px;
     border-radius: 16px;
 }
 
@@ -101,7 +101,7 @@ body {
 
 .quote-container {
     background-color: #E5E7EB;
-    height: 600px;
+    min-height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -117,4 +117,52 @@ body {
 
 .quote-container .sig {
     margin-left: 1095.730px;
+}
+
+.action {
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action .container {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 12px;
+    padding: 42px;
+    width: 800px;
+}
+
+.action .action-subtext {
+    color: #E5E7EB;
+}
+
+.action .action-title {
+    color: white;
+    font-weight: 900;
+}
+
+.action .container .left {
+    display: flex;
+    flex-direction: column;
+}
+
+.action .container button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: 900;
+    min-width: 100px;
+    border: 3px solid #E5E7EB;
+    border-radius: 8px;
+    margin: 0 auto 0;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
 }
