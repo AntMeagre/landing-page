@@ -162,7 +162,13 @@ body {
     background-color: #1F2937;
     color: #E5E7EB;
     display: flex;
+    flex-direction: column;
+    gap: 8px;
     justify-content: center;
     align-items: center;
     min-height: 100px;
+}
+
+.footer .credit a {
+    color: #3882F6;
 }
